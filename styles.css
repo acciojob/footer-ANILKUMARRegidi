@@ -1,7 +1,7 @@
 /* your code here */
 .content{
 	align-items:center;
-	padding:30px;
+	
 	width:90vw;
 	background:black;
 }
@@ -10,17 +10,18 @@
 	justify-content:space-between;
 	align-items:center;
 	width:90vw;
-	padding:20px;
+	padding:6px;
 }
 .logo_name{
 	color:white;
 	font-size:30px;
+	margin:20px;
 }
 .media-icons>img{
-	padding:8px;
+	margin-right:20px;
 	border-radius:10%;
-	height:40px;
-	width:40px;
+	height:30px;
+	width:30px;
 }
 .tags{
 	display:flex;
@@ -29,11 +30,21 @@
 	align-items:center;
 	color:white;
 }
+.links>h3{
+	text-decoration:underline;
+}
+.links{
+	margin:20px;
+}
 .bottom{
 	display:flex;
 	width:90vw;
 	justify-content:space-between;
-	background:darkgray;
+	padding:10px;
+	background:rgb(44,48,58);
 	color:white;
 	padding:0px;
+}
+.bottom>p{
+	margin:20px;
 }
