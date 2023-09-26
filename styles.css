@@ -1,1 +1,30 @@
 /* your code here */
+.content{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:20px;
+	width:90vw;
+	background:black;
+}
+.logo_details{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background-color:black;
+	width:90vw;
+	height:60vh;
+	padding:30px;
+}
+.logo_name{
+	color:white;
+	font-size:30px;
+}
+.media-icons>img{
+	display:inline;
+	justify-content:right;
+	padding:8px;
+	border-radius:10%;
+	height:40px;
+	width:40px;
+}
